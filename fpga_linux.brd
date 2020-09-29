@@ -73,7 +73,7 @@
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyZGRmNTA2" projecturn="a.cGVyc29uYWw6dWUyZGRmNTA2IzIwMTgwNTA2MTMwNzExMzAx" f3durn="urn:adsk.wipprod:dm.lineage:-Ro8_vtsQuuCTLnanzj3Kw" pcbguid="f06b8627-786c-430d-9cee-8341df4e78b8" lastpulledtime="" lastsyncedchangeguid="fb38189c-2e09-d1ad-b6c2-653575d41af0"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyZGRmNTA2" projecturn="a.cGVyc29uYWw6dWUyZGRmNTA2IzIwMTgwNTA2MTMwNzExMzAx" f3durn="urn:adsk.wipprod:dm.lineage:-Ro8_vtsQuuCTLnanzj3Kw" pcbguid="f06b8627-786c-430d-9cee-8341df4e78b8" lastpulledtime="" lastsyncedchangeguid="f510a72d-989d-ba27-f0ed-8009b90260d2"/>
 <plain>
 <wire x1="7" y1="5.4" x2="41" y2="5.4" width="0" layer="20"/>
 <wire x1="41" y1="5.4" x2="41" y2="36.9" width="0" layer="20"/>
@@ -432,7 +432,7 @@
 <wire x1="-7" y1="6" x2="-6" y2="7" width="0.2" layer="21"/>
 <circle x="-7" y="7" radius="0.1" width="0.2" layer="25"/>
 </package>
-<package name="DDR2X8" urn="urn:adsk.eagle:footprint:23585013/1" locally_modified="yes" library_version="5" library_locally_modified="yes">
+<package name="DDR2X8" urn="urn:adsk.eagle:footprint:23585013/2" library_version="6">
 <wire x1="-4" y1="5.25" x2="-4" y2="-5.25" width="0.127" layer="21"/>
 <wire x1="-4" y1="-5.25" x2="4" y2="-5.25" width="0.127" layer="21"/>
 <wire x1="4" y1="-5.25" x2="4" y2="5.25" width="0.127" layer="21"/>
@@ -548,9 +548,7 @@
 <packageinstance name="BGA256C80P16X16_1400X1400X170"/>
 </packageinstances>
 </package3d>
-<package3d name="DDR2X8" urn="urn:adsk.eagle:package:23585014/2" locally_modified="yes" type="model" library_version="5" library_locally_modified="yes">
-<description>99-BGA, non-collapsing, 0.80 mm pitch, 10.50 X 8.00 X 1.00 mm body
-&lt;p&gt;99-pin non-collapsing BGA package with 0.80 mm col pitch and 0.80 mm row pitch with body size 10.50 X 8.00 X 1.00 mm&lt;/p&gt;</description>
+<package3d name="DDR2X8" urn="urn:adsk.eagle:package:23585014/4" type="model" library_version="7">
 <packageinstances>
 <packageinstance name="DDR2X8"/>
 </packageinstances>
@@ -1139,7 +1137,7 @@ design rules under a new name.</description>
 <element name="POW:C14" library="my_lib" library_urn="urn:adsk.eagle:library:23513710" package="1206" package3d_urn="urn:adsk.eagle:package:23513767/2" value="10u" x="10.6" y="12.2" smashed="yes" rot="MR180"/>
 <element name="POW:C15" library="my_lib" library_urn="urn:adsk.eagle:library:23513710" package="1206" package3d_urn="urn:adsk.eagle:package:23513767/2" value="10u" x="12.8" y="12" smashed="yes" rot="MR0"/>
 <element name="IC2" library="my_lib" library_urn="urn:adsk.eagle:library:23513710" package="BGA256C80P16X16_1400X1400X170" package3d_urn="urn:adsk.eagle:package:23571114/2" value="LFE5U-25F68G256CFDG" x="23" y="17.4" smashed="yes"/>
-<element name="IC1" library="my_lib" library_urn="urn:adsk.eagle:library:23513710" package="DDR2X8" package3d_urn="urn:adsk.eagle:package:23585014/2" value="E1109AFGB" x="34.4" y="19.4" smashed="yes"/>
+<element name="IC1" library="my_lib" library_urn="urn:adsk.eagle:library:23513710" package="DDR2X8" package3d_urn="urn:adsk.eagle:package:23585014/4" value="E1109AFGB" x="34.4" y="19.4" smashed="yes"/>
 <element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X08" package3d_urn="urn:adsk.eagle:package:22409/2" value="" x="23.2" y="7.4" smashed="yes" rot="R180">
 <attribute name="VALUE" x="33.36" y="10.575" size="1.27" layer="27" rot="R180"/>
 </element>

@@ -3,10 +3,10 @@
 <eagle version="9.3.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -423,7 +423,7 @@
 <wire x1="-7" y1="6" x2="-6" y2="7" width="0.2" layer="21"/>
 <circle x="-7" y="7" radius="0.1" width="0.2" layer="25"/>
 </package>
-<package name="DDR2X8" urn="urn:adsk.eagle:footprint:23585013/1" locally_modified="yes" library_version="5" library_locally_modified="yes">
+<package name="DDR2X8" urn="urn:adsk.eagle:footprint:23585013/2" library_version="6">
 <wire x1="-4" y1="5.25" x2="-4" y2="-5.25" width="0.127" layer="21"/>
 <wire x1="-4" y1="-5.25" x2="4" y2="-5.25" width="0.127" layer="21"/>
 <wire x1="4" y1="-5.25" x2="4" y2="5.25" width="0.127" layer="21"/>
@@ -539,9 +539,7 @@
 <packageinstance name="BGA256C80P16X16_1400X1400X170"/>
 </packageinstances>
 </package3d>
-<package3d name="DDR2X8" urn="urn:adsk.eagle:package:23585014/2" locally_modified="yes" type="model" library_version="5" library_locally_modified="yes">
-<description>99-BGA, non-collapsing, 0.80 mm pitch, 10.50 X 8.00 X 1.00 mm body
-&lt;p&gt;99-pin non-collapsing BGA package with 0.80 mm col pitch and 0.80 mm row pitch with body size 10.50 X 8.00 X 1.00 mm&lt;/p&gt;</description>
+<package3d name="DDR2X8" urn="urn:adsk.eagle:package:23585014/4" type="model" library_version="7">
 <packageinstances>
 <packageinstance name="DDR2X8"/>
 </packageinstances>
@@ -1483,7 +1481,7 @@ ADJ=0.8V</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="E1109AFGB" urn="urn:adsk.eagle:component:23585015/2" locally_modified="yes" prefix="IC" library_version="5" library_locally_modified="yes">
+<deviceset name="E1109AFGB" urn="urn:adsk.eagle:component:23585015/4" prefix="IC" library_version="7">
 <description>1G bits DDR2 SDRAM
 EDE1108AFBG (128M words × 8 bits)</description>
 <gates>
@@ -1553,7 +1551,7 @@ EDE1108AFBG (128M words × 8 bits)</description>
 <connect gate="G$2" pin="ODT" pad="F9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23585014/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23585014/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -4162,7 +4160,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="IC1" library="my_lib" library_urn="urn:adsk.eagle:library:23513710" deviceset="E1109AFGB" device="" package3d_urn="urn:adsk.eagle:package:23585014/2"/>
+<part name="IC1" library="my_lib" library_urn="urn:adsk.eagle:library:23513710" deviceset="E1109AFGB" device="" package3d_urn="urn:adsk.eagle:package:23585014/4"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
