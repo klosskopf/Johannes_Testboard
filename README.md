@@ -1,5 +1,5 @@
 # ECP5_Breakout_with_DDR2  
-A LFE55U-25F68G256CFDG Breakout board with DDR2 x8 and Spi-Flash  
+A LFE5U-25F68G256CFDG Breakout board with DDR2 x8 and Spi-Flash  
   
 This breakout board is meant to be capable of running Linux (No idea if thats the case)  
   
